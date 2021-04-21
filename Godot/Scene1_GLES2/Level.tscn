@@ -1,12 +1,13 @@
 [gd_scene load_steps=20 format=2]
 
-[ext_resource path="res://Scene1/White.tres" type="Material" id=1]
-[ext_resource path="res://Scene1/Black.tres" type="Material" id=2]
-[ext_resource path="res://Scene1/Green.tres" type="Material" id=3]
-[ext_resource path="res://Scene1/Grey.tres" type="Material" id=4]
-[ext_resource path="res://Scene1/Magenta.tres" type="Material" id=5]
-[ext_resource path="res://Scene1/TreeBrown.tres" type="Material" id=6]
-[ext_resource path="res://Scene1/TreeGreen.tres" type="Material" id=7]
+[ext_resource path="res://Scene1_GLES2/White.tres" type="Material" id=1]
+[ext_resource path="res://Scene1_GLES2/Black.tres" type="Material" id=2]
+[ext_resource path="res://Scene1_GLES2/Green.tres" type="Material" id=3]
+[ext_resource path="res://Scene1_GLES2/Grey.tres" type="Material" id=4]
+[ext_resource path="res://Scene1_GLES2/Magenta.tres" type="Material" id=5]
+[ext_resource path="res://Scene1_GLES2/TreeBrown.tres" type="Material" id=6]
+[ext_resource path="res://Scene1_GLES2/TreeGreen.tres" type="Material" id=7]
+
 
 [sub_resource type="ArrayMesh" id=1]
 surfaces/0 = {
@@ -312,6 +313,7 @@ material/0 = null
 material/1 = null
 
 [node name="Pivot" type="Spatial" parent="."]
+transform = Transform( 0.163879, 0, 0.98648, 0, 1, 0, -0.98648, 0, 0.163879, 0, 0, 0 )
 
 [node name="Camera" type="Camera" parent="Pivot"]
 transform = Transform( 0.707107, 0.50865, -0.491198, 0, 0.694658, 0.71934, 0.707107, -0.50865, 0.491198, -13, 13, 13 )
@@ -343,3 +345,6 @@ transform = Transform( 0.258819, 5.75737e-08, -0.965926, 0.965926, -1.54268e-08,
 light_energy = 0.58
 light_bake_mode = 2
 shadow_enabled = true
+directional_shadow_mode = 0
+directional_shadow_split_2 = 0.486
+directional_shadow_split_3 = 0.714
