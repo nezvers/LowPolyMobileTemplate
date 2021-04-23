@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/car_blob_shadow.png-369e3df7fd75f4a9512591465a50828f.s3tc.stex"
-path.etc2="res://.import/car_blob_shadow.png-369e3df7fd75f4a9512591465a50828f.etc2.stex"
+path.s3tc="res://.import/car_blob_shadow.png-dc1d4552b1ecca4a27f60aad3ea39ac8.s3tc.stex"
+path.etc2="res://.import/car_blob_shadow.png-dc1d4552b1ecca4a27f60aad3ea39ac8.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Scene1_GLES3/car_blob_shadow.png"
-dest_files=[ "res://.import/car_blob_shadow.png-369e3df7fd75f4a9512591465a50828f.s3tc.stex", "res://.import/car_blob_shadow.png-369e3df7fd75f4a9512591465a50828f.etc2.stex" ]
+source_file="res://Scene1_GLES3_bright/car_blob_shadow.png"
+dest_files=[ "res://.import/car_blob_shadow.png-dc1d4552b1ecca4a27f60aad3ea39ac8.s3tc.stex", "res://.import/car_blob_shadow.png-dc1d4552b1ecca4a27f60aad3ea39ac8.etc2.stex" ]
 
 [params]
 
