@@ -38,3 +38,4 @@ environment = SubResource( 2 )
 transform = Transform( -1.62921e-07, -0.694658, -0.71934, 0, -0.71934, 0.694658, -1, 1.13174e-07, 1.17195e-07, 0, 3.77878, 6.87228 )
 light_color = Color( 0.960784, 0.941176, 0.901961, 1 )
 shadow_enabled = true
+shadow_contact = 1.14

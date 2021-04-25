@@ -10,7 +10,6 @@
 [ext_resource path="res://Scene1_GLES3_bright/car_blob_shadow.png" type="Texture" id=8]
 [ext_resource path="res://Scene1_GLES3_bright/WorldEnvironment.tscn" type="PackedScene" id=9]
 
-
 [sub_resource type="ArrayMesh" id=1]
 surfaces/0 = {
 "aabb": AABB( 0, 0, -1, 1, 1.00001, 1 ),
@@ -244,7 +243,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 16 )
 }
 
-[sub_resource type="GIProbeData" id=12]
+[sub_resource type="GIProbeData" id=10]
 bounds = AABB( -10.0599, -2.58766, -10.1859, 20.1198, 5.17532, 20.3718 )
 cell_size = 0.159154
 to_cell_xform = Transform( 6.28321, 0, 0, 0, 6.28321, 0, 0, 0, 6.28321, 63.2084, 16.2588, 64 )
@@ -318,7 +317,7 @@ material/0 = null
 material/1 = null
 
 [node name="Pivot" type="Spatial" parent="."]
-transform = Transform( 0.47069, 0, 0.882299, 0, 1, 0, -0.882299, 0, 0.47069, 0, 0.753736, 0 )
+transform = Transform( 0.867747, 0, 0.497008, 0, 1, 0, -0.497008, 0, 0.867747, 0, 0.753736, 0 )
 
 [node name="Camera" type="Camera" parent="Pivot"]
 transform = Transform( 0.999936, -0.00874858, 0.00717395, 0, 0.634086, 0.773263, -0.0113138, -0.773213, 0.634045, 0, 30, 30 )
@@ -337,6 +336,6 @@ anims/Spin = SubResource( 9 )
 visible = false
 extents = Vector3( 10.0599, 2.58766, 10.1859 )
 energy = 0.5
-data = SubResource( 12 )
+data = SubResource( 10 )
 
 [editable path="WorldEnvironment"]
